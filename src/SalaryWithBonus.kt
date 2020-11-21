@@ -34,6 +34,7 @@ class SalaryWithBonus {
                 var parts = c.get(i).split(",")
                 if (parts.get(0).equals(empName))
                 {
+
                     chkStatus = true
                     // From here implement what you need motherfucker
                     var the_percentage_from_sales = parts.get(2).toDouble() * percentageOfSales
